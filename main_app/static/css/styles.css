@@ -1,3 +1,6 @@
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -122,3 +125,29 @@ button {
     font-size: 1.5em;
     color: #ffffff;
 }
+form {
+    /* background-image: url('https://i.imgur.com/YGENKNK.jpeg'); */
+    /* background: url('https://i.imgur.com/YGENKNK.jpeg') no-repeat center center fixed; */
+    background: url(../img/abstract-colorful.jpg);
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    border: #000000 1px solid;
+    border-radius: 20px;
+    padding: 2em;
+}
+#h1-add {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#add-page {
+    background: url(../img/bg-f.jpg) no-repeat;
+    background-size: cover;
+}
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

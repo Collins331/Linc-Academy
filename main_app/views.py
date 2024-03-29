@@ -23,5 +23,5 @@ def postquiz(request):
         author = request.POST['author']
         quiz = Quize(question=question, option1=option1, option2=option2, option3=option3, option4=option4, answer=answer, author=author)
         quiz.save()
-        return redirect(request, 'add_quiz.html')
-    return redirect(request, 'add_quiz.html')
+        return redirect("/addquiz")
+    return redirect("/quiz")
