@@ -82,3 +82,27 @@ def signup(request):
 def logout(request):
     auth.logout(request)
     return redirect('login')
+
+def about(request):
+    return render(request, 'main/about.html')
+
+
+def contact(request):
+    return render(request, 'main/contact.html')
+
+
+def courses(request):
+    return render(request, 'main/courses.html')
+
+def testimonial(request):
+    return render(request, 'main/testimonial.html')
+
+def team(request):
+    return render(request, 'main/team.html')
+
+def not_found(request):
+    return render(request, '404.html')
+
+
+def user(request):
+    return render(request, 'user/user.html')
