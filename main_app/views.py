@@ -81,7 +81,7 @@ def signup(request):
 @login_required(login_url='login')
 def logout(request):
     auth.logout(request)
-    return redirect('login')
+    return redirect('user')
 
 def about(request):
     return render(request, 'main/about.html')
